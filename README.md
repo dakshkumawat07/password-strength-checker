@@ -1,115 +1,111 @@
 # 🔐 Password Strength Checker
 
-A Python-based cybersecurity tool that evaluates password strength using security best practices and provides a security score based on multiple criteria.
-
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Cybersecurity](https://img.shields.io/badge/Domain-Cybersecurity-green)
-![Status](https://img.shields.io/badge/Status-Active-success)
+A Python-based cybersecurity tool that evaluates password strength using security best practices and provides recommendations for creating stronger passwords.
 
 ---
 
-## 📖 Overview
+## 🚀 Features
 
-Password Strength Checker analyzes passwords and determines their security level by evaluating:
-
-- Length
-- Uppercase letters
-- Lowercase letters
-- Numbers
-- Special characters
-
-The tool then assigns a strength score and helps users create stronger passwords.
-
----
-
-## ✨ Features
-
-- ✅ Checks password length
-- ✅ Detects uppercase letters
-- ✅ Detects lowercase letters
-- ✅ Detects numbers
-- ✅ Detects special characters
-- ✅ Generates a security score
-- ✅ Provides strength classification
+* Password strength analysis
+* Security score calculation (0–6)
+* Uppercase letter detection
+* Lowercase letter detection
+* Number detection
+* Special character detection
+* Password security recommendations
+* Secure password generator
+* Interactive menu-driven interface
 
 ---
 
 ## 🛠 Technologies Used
 
-- Python 3
-- Regular Expressions (`re`)
+* Python
+* Regular Expressions (`re`)
+* Random
+* String
 
 ---
 
-## 🚀 Installation
+## 📋 How It Works
 
-Clone the repository:
+The program analyzes passwords based on:
 
-```bash
-git clone https://github.com/dakshkumawat07/password-strength-checker.git
-cd password-strength-checker
+* Password length
+* Uppercase letters
+* Lowercase letters
+* Numbers
+* Special characters
+* Security best practices
+
+A security score is generated and the password is classified as:
+
+| Score | Strength         |
+| ----- | ---------------- |
+| 0-1   | 🔴 Very Weak     |
+| 2-3   | 🟠 Weak          |
+| 4     | 🟡 Medium        |
+| 5     | 🟢 Strong        |
+| 6     | 🟢🟢 Very Strong |
+
+---
+
+## 💻 Example Output
+
+```python
+===== Password Strength Checker =====
+
+1. Check Password
+2. Generate Secure Password
+3. Exit
+
+Enter choice: 1
+
+Enter password: Password@123
+
+Security Score: 6/6
+
+Very Strong Password 🟢🟢
 ```
 
 ---
 
-## ▶️ Usage
+## 🔒 Password Generator
 
-Run the script:
+The tool can generate secure passwords containing:
 
-```bash
-python password_checker.py
-```
+* Uppercase letters
+* Lowercase letters
+* Numbers
+* Special characters
 
-Enter a password when prompted.
+Example:
 
----
-
-## 📊 Example
-
-Input:
-
-```text
-Password@123
-```
-
-Output:
-
-```text
-Password Strength: Strong
-Score: 5/5
-```
-
----
-
-## 📂 Project Structure
-
-```text
-password-strength-checker/
-│
-├── password_checker.py
-├── README.md
-└── .gitignore
+```python
+Suggested Secure Password:
+T#8mP2@kL9$x
 ```
 
 ---
 
 ## 🎯 Learning Outcomes
 
-This project demonstrates:
+Through this project, I learned:
 
-- Password security principles
-- Python programming
-- Regular expression usage
-- Basic cybersecurity concepts
+* Password security principles
+* Python programming fundamentals
+* Regular Expressions (Regex)
+* Password validation techniques
+* Cybersecurity best practices
 
 ---
 
 ## 🔮 Future Improvements
 
-- GUI version using Tkinter
-- Password breach checking API
-- Password generator
-- Detailed security recommendations
+* GUI version using Tkinter
+* Password breach checking API
+* Password history analysis
+* Advanced security recommendations
 
 ---
 
@@ -118,3 +114,4 @@ This project demonstrates:
 **Daksh Kumawat**
 
 GitHub: https://github.com/dakshkumawat07
+
